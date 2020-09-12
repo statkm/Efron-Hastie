@@ -15,5 +15,8 @@ run ;
 
 proc sgplot data=dat_kidney ;
 *  scatter x=age y=tot / MARKERATTRS =(color=Blue symbol = Asterisk) ;
-  REG x=age y=tot / MARKEROUTLINEATTRS =(color=GREEN ) MARKERATTRS =(color=Blue symbol = Asterisk)  ;
+  REG x=age y=tot / 
+  	MARKEROUTLINEATTRS =(color=GREEN ) 
+  	MARKERATTRS =(color=Blue symbol = Asterisk) 
+  	CLM clmattrs=(clmfillattrs=(color=black)) ;
 run;
