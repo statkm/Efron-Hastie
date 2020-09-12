@@ -1,5 +1,5 @@
 # Efron-Hastie
-大規模計算時代の統計推論([英](https://web.stanford.edu/~hastie/CASI/), [日](https://www.kyoritsu-pub.co.jp/bookdetail/9784320114340))の内容をSASで実装してみてます。
+[日: 大規模計算時代の統計推論](https://www.kyoritsu-pub.co.jp/bookdetail/9784320114340)([英: Computer Age Statistical Inference](https://web.stanford.edu/~hastie/CASI/))の内容をSASで実装してみてます。
 
 データは[こちら](https://web.stanford.edu/~hastie/CASI_files/DATA/)から。
 
